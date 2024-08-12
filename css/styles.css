@@ -1,0 +1,200 @@
+:root {
+    --logo-width: 300px; /* Default logo width */
+}
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #022b2e;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #003b3e;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: #bbb 1px solid;
+}
+
+header h1 {
+    float: left;
+    display: inline;
+    margin-left: 10px;
+}
+
+header .logo {
+    float: left;
+    display: inline;
+    width: var(--logo-width);
+    margin-top: 10px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 15px;
+    padding-right: 10px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #bbb;
+}
+
+header .user-actions {
+    float: right;
+    margin-top: 5px;
+}
+
+header .button {
+    background: #4e6518;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+header .button:hover {
+    background: #6b7e23;
+}
+
+.hero {
+    background: #f4f4f4;
+    color: #333;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.about,
+.artists,
+.albums,
+.contact {
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Login Page Styles */
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #003b3e;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+.login-container .logo {
+    width: var(--logo-width);
+    margin-bottom: 20px;
+}
+
+.login-container h2 {
+    color: #cedb47;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    color: #cedb47;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #4e6518;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn.signup {
+    background-color: #728527;
+}
+
+.btn:hover {
+    background-color: #6b7e23;
+}
+
+.btn.signup:hover {
+    background-color: #95b748;
+}
+
+/* Fade-in effect */
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation ease 1.5s;
+    animation-fill-mode: forwards;
+}
+
+/* Keyframes for the fade-in effect */
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
