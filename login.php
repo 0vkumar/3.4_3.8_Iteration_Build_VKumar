@@ -79,4 +79,10 @@ ob_end_flush();
         ?>
     </div>
 </body>
+	
+	<footer>
+        <div class="container">
+            <p>&copy; 2024 Beatbank. All rights reserved.</p>
+        </div>
+    </footer>
 </html>

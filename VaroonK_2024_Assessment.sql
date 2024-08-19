@@ -3,7 +3,7 @@
 -- Host: localhost	Database: VaroonK_2024_Assessment
 -- ------------------------------------------------------
 -- Server version 	8.0.39-0ubuntu0.22.04.1
--- Date: Mon, 12 Aug 2024 21:25:45 +0000
+-- Date: Mon, 19 Aug 2024 01:12:31 +0000
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -225,12 +225,12 @@ CREATE TABLE `users` (
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
 SET autocommit=0;
-INSERT INTO `users` VALUES ('Graeme','Admin135'),('MrC','Ej25'),('VaroonK','evolutionIX'),('Sigma','fortnite');
+INSERT INTO `users` VALUES ('Graeme','Admin135'),('VaroonK','evolutionIX'),('Lime','fortnite');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 COMMIT;
 
--- Dumped table `users` with 4 row(s)
+-- Dumped table `users` with 3 row(s)
 --
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -243,4 +243,4 @@ COMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on: Mon, 12 Aug 2024 21:25:45 +0000
+-- Dump completed on: Mon, 19 Aug 2024 01:12:31 +0000
