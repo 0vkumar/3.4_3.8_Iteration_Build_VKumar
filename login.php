@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $count = mysqli_num_rows($result);
 
     // Special check for admin user "Graeme"
-    if (($myusername == "Graeme" or $myusername == "graeme") && $mypassword == "Admin135") {
+    if (($myusername == "Graeme" or $myusername == "graeme") && $mypassword == "Dojustly") {
         $_SESSION['login_user'] = $myusername;
         header("location: ./index_admin.php");
     } elseif ($count == 1) {

@@ -134,11 +134,6 @@ if (!isset($_SESSION['login_user'])) {
         ?>
         </div>
     </div>
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Beatbank. All rights reserved.</p>
-        </div>
-    </footer>
 
     <script>
         // Ensures fade-in animation triggers after the page is fully loaded
