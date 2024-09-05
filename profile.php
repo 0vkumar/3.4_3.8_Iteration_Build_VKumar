@@ -64,7 +64,7 @@ if ($User == "Graeme" or $User == "graeme") {
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Beatbank. All rights reserved.</p>
+            <p>&copy; Varoon Kumar 2024, Figma, Craiyon (Ai Images). All rights reserved.</p>
         </div>
     </footer>
 
